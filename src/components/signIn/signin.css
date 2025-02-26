@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    #cookieCard{
+        position: relative;
+        background: #41130C;
+        padding: 10px;
+        color: white;
+        overflow: hidden;
+        
+        .img{
+            position: absolute;
+            top: -125px;
+            right: -125px;
+            /* background: red; */
+            width: 250px;
+            height: 250px;
+            animation: rotate 20s infinite linear
+        }
+    }
+    #dateRegistred-container{
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    #burnYourCookie-btn{
+        background: #D04444;
+        border: none;
+        /* border: 1px solid white; */
+        border-radius: 5px;
+        font-size: 18px;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+:root{
+  --font-family: 'inika', serif;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'inika', serif;
+}
+
+body, #root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFD499;
+  height: 100vh;
+  width: 100vw;
+  gap: 50px;
+  font-family: 'inika', serif;
+  overflow: hidden;
+}
+
+h1{
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #41130C;
+  flex: 2;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+button{
+  cursor: pointer;
+}
